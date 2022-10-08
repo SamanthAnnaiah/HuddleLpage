@@ -97,3 +97,7 @@ div.foot_div {
 .log {
     margin: 5px;
 }
+
+button.bton:hover {
+    box-shadow: hsl(300, 21%, 11%) 0 10px 30px 25px;
+}
