@@ -58,7 +58,7 @@ span.bton_1 {
   background: hsl(300, 69%, 71%);
   border-radius: 999px;
   box-shadow: hsl(300, 21%, 11%) 0 10px 20px 10px;
-  transition: box-shadow 2s;
+  transition: box-shadow 2s, background 2s;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
@@ -101,4 +101,6 @@ div.foot_div {
 
 button.bton:hover {
     box-shadow: hsl(300, 21%, 11%) 0 10px 30px 25px;
+    transform: translateY(-2px);
+    background: hsl(204, 69%, 71%);
 }
