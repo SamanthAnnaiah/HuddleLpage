@@ -58,6 +58,7 @@ span.bton_1 {
   background: hsl(300, 69%, 71%);
   border-radius: 999px;
   box-shadow: hsl(300, 21%, 11%) 0 10px 20px 10px;
+  transition: box-shadow 2s;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
